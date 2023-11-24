@@ -1,0 +1,186 @@
+h3{
+  color: #fff;
+}
+body{
+  font-family: 'Poppins' !important;
+}
+
+/* Slideshow container */
+.slideshow-container-storia {
+  font-family: 'Poppins' !important;
+  position: relative;
+  margin: auto;
+  width: 80%;
+  height: 430px; /* set container height */
+  overflow: hidden;
+  display: block;
+}
+.slideshow-container-impara {
+  font-family: 'Poppins' !important;
+  position: relative;
+  margin: auto;
+  width: 80%;
+  height: 430px; /* set container height */
+  overflow: hidden;
+  display: none;
+}
+
+/* Center the slides vertically and horizontally */
+.mySlides {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* take full height of container */
+  padding-bottom: 10px;
+}
+
+/* Hide all slides by default */
+.mySlides {
+  display: none;
+}
+
+/* Next and previous buttons */
+.prevD, .nextD {
+  position: absolute;
+  top: 58%;
+  transform: translateY(-50%);
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  cursor: pointer;
+}
+
+/* Position the previous button to the left */
+.prevD {
+  color: #ffffff !important;
+  left: 0;
+  border-radius: 0px 10px 10px 0px;
+}
+
+/* Position the next button to the right */
+.nextD {
+  color: #ffffff !important;
+  right: 0;
+  border-radius: 10px 0 0 10px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prevD:hover, .nextD:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.testo {
+  font-family: 'Poppins' !important;
+  color: rgb(255, 255, 255);
+  padding: 50px 100px 50px 100px;
+}
+
+li{
+  font-family: 'Poppins' !important;
+}
+
+/* The dots/bullets/indicators */
+.dot-container {
+  text-align: center;
+  margin: 0px;
+  padding-top: 20px !important;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.activeD, .dot:hover {
+  background-color: rgba(60, 60, 60, 0.655);
+}
+
+/* Fade animation for the slides */
+.fadeD {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1s;
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .0}
+  to {opacity: .655}
+}
+
+.titolo{
+  text-align: center;
+  font-family: 'Poppins' !important;
+  margin-bottom: -20px;
+  padding-top: 30px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center !important;
+  padding-top: 40px;
+  position: relative !important;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.slider-button {
+  font-family: 'Poppins' !important;
+  background-color: rgba(60, 60, 60, 0.655);
+  color: white;
+  padding: 15px 30px;
+  width: 220px;
+  border-radius: 30px;
+  border: none;
+  font-size: 17px;
+  transition: transform 0.2s;
+  margin-right: 10px;
+}
+
+.slider-button:hover {
+  text-decoration: none;
+  color: #fff;
+  transform: scale(1.15);
+  background-color:rgba(60, 60, 60, 0.4);
+}
+
+.slider-button:nth-child(2) {
+  margin-left: 15px;
+}
+.slider-button:nth-child(3){
+  margin-left: 15px;
+}
+
+.slider-background{
+  background-color: rgba(60, 60, 60, 0.655) !important;
+  width: 100%;
+  border-radius: 30px;
+  height: 400px;
+}
+
+.activeB, .slider-button:hover{
+background-color: #FAE194;
+}
+::selection { background: transparent; } ::-moz-selection { background: transparent; }
+
+b{
+  font-family: 'Poppins' !important;
+}

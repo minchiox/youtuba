@@ -1,0 +1,30 @@
+.ciao-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+  position: relative !important;
+}
+
+.ciao-button {
+  font: "Poppins", sans-serif;
+  background-color: #fae194;
+  color: rgba(60, 60, 60, 0.655);
+  padding: 15px 30px;
+  border-radius: 30px;
+  width:  175px;
+  border: none;
+  font-size: 17px;
+  transition: transform 0.2s;
+  margin-right: 10px;
+}
+
+.ciao-button:hover {
+  transform: scale(1.15);
+  background-color:#e5b03c;
+}
+.ciao-button:nth-child(2) {
+  margin-left: 15px;
+}
+.ciao-button:nth-child(3){
+  margin-left: 15px;
+}
